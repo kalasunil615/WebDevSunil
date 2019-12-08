@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.title       {
+    border: 1px solid black;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    width: 150px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    margin-top: 0;
+}
+
+.desc {
+  padding: 45px 10px 5px 10px;
+}
+
+#dal {
+  background-color: skyblue;
+}
+
+#rasgulla {
+  background-color: lemonchiffon;
+}
+
+#biryani {
+  background-color: lightcoral;
+}
+
+.row {
+  width: 100%;
+  padding: 0 8px 0 8px;
+}
+
+div.section {
+  background: light-gray;
+  border: 1px solid black;
+  position: relative;
+  margin: 10px;
+}
+
+
+/* Large */
+@media (min-width: 992px) {
+  .col-lg-4{
+    float: left;
+    width: 33%;
+  }
+}
+
+/* Medium */
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/* Small */
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    width: 100%;
+  }
+  }
